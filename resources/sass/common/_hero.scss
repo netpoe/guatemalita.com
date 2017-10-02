@@ -1,0 +1,30 @@
+.hero {
+  margin-bottom: get-spacer(5);
+  .title {
+    @include alt-bold;
+    margin-bottom: get-spacer(3);
+    text-transform: capitalize;
+  }
+  .img-wrapper {
+    margin-bottom: get-spacer(5);
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+  .excerpt {
+    @include serif-book;
+    padding: get-spacer(1);
+    background-color: $indigo;
+    font-size: $h3-font-size;
+    color: white;
+  }
+}
+
+@media #{$sm-down} {
+  .hero {
+    .excerpt {
+      font-size: $h4-font-size;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.content {
+  margin-bottom: get-spacer(5);
+  min-height: 100vh;
+
+  p {
+    @include book;
+    margin-bottom: get-spacer(4);
+    font-size: $h5-font-size;
+  }
+
+  strong {
+    @include bold;
+  }
+
+  h3 {
+   @include serif-book;
+   margin-bottom: get-spacer(2);
+  }
+
+  address {
+    color: $gray-600;
+  }
+
+  .list-item {
+    margin-bottom: get-spacer(5);
+    header {
+      margin-bottom: get-spacer(3);
+      h3 {}
+      h4 {
+        font-size: $h5-font-size;
+      }
+    }
+  }
+}
+
+.subscribe-form-section {
+  @include flex-column-center;
+  margin-bottom: get-spacer(4);
+  margin-top: get-spacer(3);
+  background-color: $blue;
+  min-height: 140px;
+  form {
+    label {
+      color: white;
+    }
+  }
+}

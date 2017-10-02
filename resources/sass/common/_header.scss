@@ -1,0 +1,46 @@
+.header {
+  background-color: white;
+  margin-bottom: 70px;
+  .logo-wrapper {
+    img {
+      width: 240px;
+      height: auto;
+    }
+  }
+  .icons-nav {
+    i {
+      &:before {
+        // color: white;
+      }
+    }
+    a {
+      margin-left: get-spacer(4);
+      text-decoration: none;
+      // color: white;
+      &:hover {
+        text-decoration: none;
+        // color: white;
+      }
+    }
+  }
+}
+
+@media #{$sm-down} {
+  .header {
+    margin-bottom: get-spacer(4);
+    .logo-wrapper {
+      text-align: right;
+      img {
+        width: 180px;
+      }
+    }
+    .header-right {
+      display: none;
+    }
+    .header-left,
+    .header-center,
+    .header-right {
+      height: 56px;
+    }
+  }
+}
