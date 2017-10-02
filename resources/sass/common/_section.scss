@@ -1,0 +1,30 @@
+/*
+  EBM Section
+*/
+.section {
+  @include flex-column-space-between;
+}
+.section-header,
+.section-content,
+.section-footer {
+  position: relative;
+}
+.section-header,
+.section-footer {}
+.section-header {
+  margin-bottom: get-spacer(4);
+}
+.section-content {}
+.section-footer {
+  padding: get-spacer(3);
+}
+
+@media #{$sm-down} {
+  body {
+    .section-header,
+    .section-footer {
+    }
+    .section-content {
+    }
+  }
+}

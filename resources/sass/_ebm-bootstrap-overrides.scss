@@ -8,3 +8,30 @@
 .img-responsive {
   width: 100%;
 }
+
+.card {
+  margin-bottom: get-spacer(3);
+  word-break: break-all;
+  .card-header {
+    @include flex-row-space-between;
+    @include normalize-text;
+    .title, .action {
+      @include flex-column-center;
+      min-height: 35px;
+    }
+  }
+}
+
+.card-block {
+  &.card-block-scroll {
+    overflow: scroll;
+    max-height: 180px;
+  }
+}
+
+.card-block-title {
+  @include bold;
+  border-bottom: 1px solid $gray-100;
+  padding: get-spacer(2);
+  display: block;
+}

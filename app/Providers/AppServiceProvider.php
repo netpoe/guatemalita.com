@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        \Moment\Moment::setDefaultTimezone('UTC');
+
+        \Moment\Moment::setLocale('es_ES');
     }
 
     /**
