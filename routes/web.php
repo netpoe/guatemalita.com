@@ -16,7 +16,8 @@ Route::get('/', function () {
 });
 
 Route::group(['namespace' => 'Front'], function(){
-    Route::get('/{post}', 'PostsController@index')->name('front.posts.index');
+    Route::get('/notas/{post}', 'PostsController@index')->name('front.posts.index');
+    Route::get('/eventos', 'EventsController@index')->name('front.events.index');
 });
 
 Auth::routes();
