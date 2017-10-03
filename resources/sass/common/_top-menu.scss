@@ -25,7 +25,17 @@
   }
   .top-menu-item {
     border-right: 1px solid lighten($guate, 7%);
+    margin-bottom: -1px;
     position: relative;
+    &.active {
+      background-color: white;
+      > div {
+        a {
+          @include bold;
+          color: $blue;
+        }
+      }
+    }
     > div {
       a {
         text-align: center;

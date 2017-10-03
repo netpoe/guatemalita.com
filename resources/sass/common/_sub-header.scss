@@ -1,0 +1,15 @@
+.sub-header {
+  @include normalize-text;
+  padding: get-spacer(3) 0;
+  .title {
+    @include bold;
+    text-transform: uppercase;
+    font-size: $h5-font-size;
+  }
+}
+
+@media #{$sm-down} {
+  .sub-header {
+    text-align: right;
+  }
+}

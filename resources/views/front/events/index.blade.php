@@ -4,17 +4,16 @@
   <link href="/css/front/events/index.css" rel="stylesheet">
 @endpush
 
+@push('sub-header')
+  <div class="sub-header">
+    <div class="container">
+      <h1 class="title">Eventos en Guatemala</h1>
+    </div>
+  </div>
+@endpush
+
 @section('content')
   <section class="section">
-    <header class="section-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Eventos en Guatemala</h1>
-          </div>
-        </div>
-      </div>
-    </header>
     <div class="section-content">
       <div class="container">
         <div class="row">
