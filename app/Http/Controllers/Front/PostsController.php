@@ -7,8 +7,11 @@ use App\Http\Controllers\Controller;
 
 class PostsController extends Controller
 {
-    public function index($post)
+    public function index(String $post = null)
     {
+        if (!$post) {
+            return view('front.posts.index');
+        }
 
         return view("front.posts.$post");
     }

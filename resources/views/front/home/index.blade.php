@@ -20,7 +20,7 @@
           </div>
           <nav class="hero-menu">
             <a href="{{ route('front.events.index') }}">Eventos</a>
-            <a href="#">Notas</a>
+            <a href="{{ route('front.posts.index') }}">Notas</a>
           </nav>
         </div>
         <div class="col-sm-6 hero-right"></div>
