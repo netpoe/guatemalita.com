@@ -49,3 +49,41 @@
   }
 }
 
+.events-list {
+  .card-block-title {
+    text-transform: capitalize;
+    font-size: $h3-font-size;
+  }
+  .card-block {
+    padding: get-spacer(3);
+  }
+}
+
+.event-item {
+  margin-bottom: get-spacer(4);
+  .title {
+    @include bold;
+    margin-bottom: get-spacer(2);
+    font-size: $h4-font-size;
+    word-break: break-word;
+    a {
+      text-decoration: none;
+    }
+  }
+  .map-link {
+    @include bold;
+    text-decoration: none;
+  }
+  .img-wrapper {
+    margin-bottom: get-spacer(3);
+    max-height: 350px;
+    overflow: hidden;
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+  .description {
+    word-break: break-word;
+  }
+}

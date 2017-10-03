@@ -20,11 +20,31 @@
         <div class="row">
           <div class="col-sm-6">
             @foreach($calendar as $date)
-              <div class="card">
-                <small class="card-block-title">{{ $date['date'] }}</small>
+              <div class="card events-list">
+                <h2 class="card-block-title">{{ $date['date'] }}</h2>
                 <div class="card-block">
                   @foreach($date['events'] as $event)
-                    <p><a href="https://www.facebook.com/events/{{ $event->id }}" target="_blank">{{ $event->name }}</a></p>
+                    <article class="event-item">
+                      <div class="img-wrapper">
+                        <a
+                          href="https://www.facebook.com/events/{{ $event->id }}"
+                          target="_blank">
+                          <img src="{{ $event->cover }}" alt="{{ $event->name }}">
+                        </a>
+                      </div>
+                      <h3 class="title"><a href="https://www.facebook.com/events/{{ $event->id }}" target="_blank">{{ $event->name }}</a></h3>
+                      <address class="location">
+                        <a
+                          href="http://maps.google.com/maps?q={{ $event->place->latitude }},{{ $event->place->longitude }}"
+                          target="_blank"
+                          class="map-link">
+                          <i class="icon-map-marker"></i> {{ $event->place->name }}
+                        </a>
+                        <br> {{ $event->place->city }}
+                        <br> {{ $event->place->street }}
+                      </address>
+                      <p class="description">{{ $event->description }}</p>
+                    </article>
                   @endforeach
                 </div>
               </div>
