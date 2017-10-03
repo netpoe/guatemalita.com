@@ -22,17 +22,17 @@ class Event
     {
         $this->fb = $fb;
 
-        $this->id = $event['id'];
+        $this->id = $event['id'] ?? null;
 
         $this->cover = $this->getEventCover();
 
-        $this->description = $event['description'];
+        $this->description = $event['description'] ?? null;
 
-        $this->name = $event['name'];
+        $this->name = $event['name'] ?? null;
 
-        $this->place = new Place($event['place']);
+        $this->place = new Place($event['place']) ?? null;
 
-        $this->start_time = $event['start_time'];
+        $this->start_time = $event['start_time'] ?? null;
     }
 
     public function getEventCover()

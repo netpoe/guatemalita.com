@@ -17,7 +17,9 @@ class EventsService extends FacebookService
     {
         parent::__construct();
 
-        $this->registerPageId(174100923084060);
+        $this->registerPageId(174100923084060); // la sala de cine GT
+        $this->registerPageId(316317121727396); // alianza francesa GT
+        $this->registerPageId(270410246403469); // teatro lux
     }
 
     public function registerPageId(Int $pageId)
@@ -31,7 +33,7 @@ class EventsService extends FacebookService
     {
         foreach ($this->pageIds as $id) {
             try {
-                $response = $this->fb->get('/174100923084060/events?time_filter=upcoming', $this->fb->getApp()->getAccessToken());
+                $response = $this->fb->get("/$id/events?time_filter=upcoming", $this->fb->getApp()->getAccessToken());
             } catch(\Facebook\Exceptions\FacebookResponseException $e) {
                 echo 'Graph returned an error: ' . $e->getMessage();
                 exit;

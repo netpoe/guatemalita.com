@@ -16,22 +16,22 @@ class Place
 
     public function __construct(Array $place)
     {
-        $this->name = $place['name'];
+        $this->name = $place['name'] ?? null;
 
-        $this->id = $place['id'];
+        $this->id = $place['id'] ?? null;
 
-        $location = $place['location'];
+        $location = $place['location'] ?? null;
 
-        $this->city = $location['city'];
+        $this->city = $location['city'] ?? null;
 
-        $this->country = $location['country'];
+        $this->country = $location['country'] ?? null;
 
-        $this->latitude = $location['latitude'];
+        $this->latitude = $location['latitude'] ?? null;
 
-        $this->longitude = $location['longitude'];
+        $this->longitude = $location['longitude'] ?? null;
 
-        $this->street = $location['street'];
+        $this->street = $location['street'] ?? null;
 
-        $this->zip = $location['zip'];
+        $this->zip = $location['zip'] ?? null;
     }
 }
