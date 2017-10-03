@@ -11080,7 +11080,7 @@ html::-webkit-scrollbar {
 .hero {
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center 50%;
+  background-position: center bottom;
   min-height: 70vh;
 }
 

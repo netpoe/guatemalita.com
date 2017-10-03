@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 header-left">
-        <a href="#" class="logo-wrapper">
+        <a href="{{ route('front.home.index') }}" class="logo-wrapper">
           <img src="/img/front/logo-guatemalita-blue-carino.png" alt="Guatemalita">
         </a>
       </div>

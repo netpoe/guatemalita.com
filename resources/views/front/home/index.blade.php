@@ -11,10 +11,10 @@
         <div class="col-sm-6 hero-left">
           <h1 class="sm-up-title">Guatemala, con cariño...</h1>
           <h1 class="sm-down-title">Guatemala, <br>con cariño...</h1>
-          <h2>Recibe en tu correo las más recientes actualizaciones de arte, eventos y cultura en Guatemala</h2>
+          <h2>Recibí en tu correo las más recientes actualizaciones de arte, eventos y cultura en Guatemala</h2>
           <div class="subscribe-form-block">
             @include('components.subscribe-form', [
-              'label' => 'Suscríbete al newsletter semanal, es gratis',
+              'label' => 'Suscribite al newsletter semanal, es gratis',
               'autofocus' => true
               ])
           </div>

@@ -4,11 +4,11 @@
     <input
       type="text"
       class="form-control form-control-lg"
-      placeholder="persona-cool@email.com"
+      placeholder="persona-chilera@email.com"
       aria-label="nl"
       autofocus="{{ isset($autofocus) ? 'true' : 'false' }}">
     <span class="input-group-btn">
-      <button class="btn btn-guate btn-lg" type="button">Suscríbeme!</button>
+      <button class="btn btn-guate btn-lg" type="button">¡Suscribime!</button>
     </span>
   </div>
 </form>

@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-sm-6 footer-left">
         <div class="subscribe-form-block">
-          @include('components.subscribe-form', ['label' => 'Recibe lo último de Guatemalita en tu correo'])
+          @include('components.subscribe-form', ['label' => 'Recibí lo último de Guatemalita en tu correo'])
         </div>
       </div>
       <div class="col-sm-5 ml-auto footer-right">

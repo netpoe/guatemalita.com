@@ -22,7 +22,7 @@
             @foreach($calendar as $date)
               @if ($loop->index == 2 || $loop->index == 4)
                 <div class="subscribe-form-block">
-                  @include('components.subscribe-form', ['label' => 'Recibe los últimos eventos a tu correo'])
+                  @include('components.subscribe-form', ['label' => 'Recibí los últimos eventos en tu correo'])
                 </div>
               @endif
 
