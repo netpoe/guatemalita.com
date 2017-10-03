@@ -35,44 +35,8 @@
 @import "./resources/sass/common/header";
 @import "./resources/sass/common/top-menu";
 @import "./resources/sass/common/footer";
+@import "./resources/sass/common/hero";
+@import "./resources/sass/common/content";
 
-.hero {
-  @include bg-img-block;
-  background-position: center 50%;
-  min-height: 70vh;
-  h1 {
-    @include alt-bold;
-  }
-  h2 {
-    @include serif-book;
-  }
-  .subscribe-form-block {
-    margin-top: get-spacer(4);
-  }
-  .hero-menu {
-    margin-top: get-spacer(3);
-    a {
-      margin-right: get-spacer(3);
-    }
-  }
-  .sm-down-title {
-    display: none;
-  }
-}
 
-@media #{$sm-down} {
-  .hero {
-    background-position: center bottom;
-    min-height: 119vh;
-    h2 {
-      font-size: $h4-font-size;
-    }
-    .sm-up-title {
-      display: none;
-    }
-    .sm-down-title {
-      display: block;
-    }
-  }
-}
 

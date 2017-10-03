@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-sm-6 header-left">
         <a href="#" class="logo-wrapper">
-          <img src="/img/front/logo-guatemalita-blue.png" alt="Guatemalita">
+          <img src="/img/front/logo-guatemalita-blue-carino.png" alt="Guatemalita">
         </a>
       </div>
       <div class="col-sm-6 header-right">

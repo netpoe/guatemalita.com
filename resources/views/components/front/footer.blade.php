@@ -8,7 +8,7 @@
       </div>
       <div class="col-sm-5 ml-auto footer-right">
         <a href="#" class="logo">
-          <img src="/img/front/logo-guatemalita-blue.png" alt="Guatemalita.com">
+          <img src="/img/front/logo-guatemalita-blue-carino.png" alt="Guatemalita.com">
         </a>
         <ul class="footer-list">
           <li><a href="{{ route('front.events.index') }}">Eventos</a></li>

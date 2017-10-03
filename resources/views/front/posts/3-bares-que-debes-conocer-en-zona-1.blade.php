@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('head-links')
-  <link href="/css/front/home/index.css" rel="stylesheet">
+  <link href="/css/front/posts/index.css" rel="stylesheet">
 @endpush
 
 @section('content')
