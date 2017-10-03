@@ -87,3 +87,16 @@
     word-break: break-word;
   }
 }
+
+.subscribe-form-block {
+  border-radius: $border-radius;
+  margin-bottom: get-spacer(5);
+  background-color: $blue;
+  padding: get-spacer(3);
+  form {
+    margin-bottom: get-spacer(3);
+  }
+  label {
+    color: white;
+  }
+}

@@ -8242,3 +8242,18 @@ html::-webkit-scrollbar {
 .event-item .description {
   word-break: break-word;
 }
+
+.subscribe-form-block {
+  border-radius: 0.25rem;
+  margin-bottom: 3rem;
+  background-color: #18297D;
+  padding: 1rem;
+}
+
+.subscribe-form-block form {
+  margin-bottom: 1rem;
+}
+
+.subscribe-form-block label {
+  color: white;
+}

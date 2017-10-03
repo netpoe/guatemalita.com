@@ -31,23 +31,9 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sed cum ullam totam accusamus id similique dignissimos natus temporibus animi nobis rem, fuga sapiente impedit nam tempore. Quae sint, dolorem.</p>
       </article>
     </div>
-    <section class="subscribe-form-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <form action="">
-              <label for="">Recibe las últimas notas a tu correo</label>
-              <div class="input-group">
-                <input type="text" class="form-control form-control-lg" placeholder="correocool@email.com" aria-label="nl">
-                <span class="input-group-btn">
-                  <button class="btn btn-guate btn-lg" type="button">Suscríbeme!</button>
-                </span>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+
+    @include('components.subscribe-form-section')
+
     <div class="container-md">
       <article class="list-item">
         <header>

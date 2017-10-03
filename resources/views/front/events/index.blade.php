@@ -20,10 +20,17 @@
         <div class="row">
           <div class="col-sm-6">
             @foreach($calendar as $date)
+              @if ($loop->index == 2 || $loop->index == 4)
+                <div class="subscribe-form-block">
+                  @include('components.subscribe-form', ['label' => 'Recibe los últimos eventos a tu correo'])
+                </div>
+              @endif
+
               <div class="card events-list">
                 <h2 class="card-block-title">{{ $date['date'] }}</h2>
                 <div class="card-block">
                   @foreach($date['events'] as $event)
+
                     <article class="event-item">
                       <div class="img-wrapper">
                         <a
