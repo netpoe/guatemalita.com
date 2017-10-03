@@ -39,5 +39,15 @@
 @import "./resources/sass/common/hero";
 @import "./resources/sass/common/content";
 
+.posts-index {
+  min-height: 100vh;
+}
 
-
+.post-item {
+  @include normalize-text;
+  text-decoration: none;
+  display: block;
+  .card-block {
+    padding: get-spacer(4);
+  }
+}
