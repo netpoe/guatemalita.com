@@ -29,7 +29,6 @@
                 <h2 class="card-block-title">{{ $date['date'] }}</h2>
                 <div class="card-block">
                   @foreach($date['events'] as $event)
-
                     <article class="event-item">
                       <div class="img-wrapper">
                         <a
@@ -48,6 +47,7 @@
                         </a>
                         <br> {{ $event->place->city }}
                         <br> {{ $event->place->street }}
+                        <br> {{ $date['date'] }}
                       </address>
                       <p class="description">{{ $event->description }}</p>
                     </article>

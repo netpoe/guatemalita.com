@@ -21,6 +21,7 @@ class EventsService extends FacebookService
         $this->registerPageId(316317121727396); // alianza francesa GT
         $this->registerPageId(270410246403469); // teatro lux GT
         $this->registerPageId(1584539095139316); // la casona centro cultural GT
+        $this->registerPageId(241147159385395); // espacio sótano 1 GT
     }
 
     public function registerPageId(Int $pageId)
