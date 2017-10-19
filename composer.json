@@ -10,7 +10,8 @@
         "fideloper/proxy": "~3.3",
         "fightbulc/moment": "^1.26",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "pacely/mailchimp-apiv3": "dev-master"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

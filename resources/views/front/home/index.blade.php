@@ -15,12 +15,13 @@
           <div class="subscribe-form-block">
             @include('components.subscribe-form', [
               'label' => 'Suscribite al newsletter semanal, es gratis',
-              'autofocus' => true
+              'autofocus' => true,
+              'action' => route('front.mailchimp.subscribe')
               ])
           </div>
           <nav class="hero-menu">
             <a href="{{ route('front.events.index') }}">Eventos</a>
-            <a href="{{ route('front.posts.index') }}">Notas</a>
+            {{-- <a href="{{ route('front.posts.index') }}">Notas</a> --}}
           </nav>
         </div>
         <div class="col-sm-6 hero-right"></div>

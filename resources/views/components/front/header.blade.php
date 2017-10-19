@@ -9,7 +9,7 @@
       <div class="col-sm-6 header-right">
         <nav class="icons-nav">
           <a href="#"><i class="icon-instagram"></i> / guatemalita.com</a>
-          <a href="#"><i class="icon-youtube"></i> / guatemalita</a>
+          {{-- <a href="#"><i class="icon-youtube"></i> / guatemalita</a> --}}
         </nav>
       </div>
     </div>

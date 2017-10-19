@@ -16,6 +16,8 @@ Route::get('/', function () {
 });
 
 Route::group(['namespace' => 'Front'], function(){
+    Route::post('/mailchimp/subscribe', 'MailchimpController@subscribe')->name('front.mailchimp.subscribe');
+    Route::get('/newsletter/confirmacion', 'MailchimpController@confirmation')->name('front.mailchimp.confirmation');
     Route::get('/', 'HomeController@index')->name('front.home.index');
     Route::get('/notas/{post?}', 'PostsController@index')->name('front.posts.index');
     Route::get('/eventos', 'EventsController@index')->name('front.events.index');
