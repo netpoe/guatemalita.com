@@ -21,6 +21,7 @@ Route::group(['namespace' => 'Front'], function(){
     Route::get('/', 'HomeController@index')->name('front.home.index');
     Route::get('/notas/{post?}', 'PostsController@index')->name('front.posts.index');
     Route::get('/eventos', 'EventsController@index')->name('front.events.index');
+    Route::get('/eventos/rss-feed', 'EventsController@rssFeed')->name('front.events.rss-feed');
 });
 
 Auth::routes();

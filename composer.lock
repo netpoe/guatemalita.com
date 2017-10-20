@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b74ee48423dcee175f9bc6b74323e63f",
-    "content-hash": "0208e887c71e3f80f68004d2eb83ba97",
+    "hash": "4688b6a6b24105e2d2201f9c12f5927c",
+    "content-hash": "2fa0e0a56b95e2b0d2a947ecd867c017",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1658,6 +1658,66 @@
                 "uuid"
             ],
             "time": "2017-09-22 20:46:04"
+        },
+        {
+            "name": "roumen/feed",
+            "version": "v2.11.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laravelium/laravel-feed.git",
+                "reference": "0e5ac935d558ec69bb4f11e1f2cef8705f2c87b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laravelium/laravel-feed/zipball/0e5ac935d558ec69bb4f11e1f2cef8705f2c87b0",
+                "reference": "0e5ac935d558ec69bb4f11e1f2cef8705f2c87b0",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.5.*",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Roumen\\Feed\\FeedServiceProvider"
+                    ],
+                    "aliases": {
+                        "Feed": "Roumen\\Feed\\Feed"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Roumen\\Feed": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roumen Damianoff",
+                    "email": "roumen@crimsson.com",
+                    "homepage": "https://damianoff.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple feed generator for Laravel.",
+            "homepage": "https://damianoff.com/en/projects/laravel-feed",
+            "keywords": [
+                "atom",
+                "feed",
+                "generator",
+                "laravel",
+                "rss"
+            ],
+            "time": "2017-09-07 16:41:55"
         },
         {
             "name": "swiftmailer/swiftmailer",

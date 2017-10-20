@@ -168,6 +168,7 @@ return [
          * Package Service Providers...
          */
         Mailchimp\MailchimpServiceProvider::class,
+        Roumen\Feed\FeedServiceProvider::class,
 
         /*
          * Application Service Providers...
