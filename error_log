@@ -1,9 +1,0 @@
-[23-Oct-2017 13:18:27 America/Chicago] PHP Parse error:  syntax error, unexpected '*', expecting end of file in /home3/gaibarra/public_html/guatemalita.com/index.php on line 3
-[23-Oct-2017 13:20:50 America/Chicago] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home3/gaibarra/public_html/guatemalita.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
-Stack trace:
-#0 /home3/gaibarra/public_html/guatemalita.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('view')
-#1 /home3/gaibarra/public_html/guatemalita.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('view')
-#2 /home3/gaibarra/public_html/guatemalita.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('view', Array)
-#3 /home3/gaibarra/public_html/guatemalita.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('view', Array)
-#4 /home3/gaibarra/public_html/guatemalita.com/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('view', Array)
-#5 /home in /home3/gaibarra/public_html/guatemalita.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
