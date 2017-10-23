@@ -11,6 +11,14 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://fonts.googleapis.com/css?family=Sanchez|Oleo+Script|Nunito:400,700" rel="stylesheet">
 
+    <!-- share -->
+    <meta property="og:title" content="Recibí en tu correo las más recientes actualizaciones de arte, eventos y cultura en Guatemala | Guatemalita.com">
+    <meta property="og:image" content="/img/og-image-guatemalita.com">
+    <meta property="og:description" content="Recibí en tu correo las más recientes actualizaciones de arte, eventos y cultura en Guatemala">
+    <meta property="og:url" content="http://guatemalita.com/">
+    <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="541499782697544">
+
     @stack('head-links')
     @stack('head-scripts')
   </head>

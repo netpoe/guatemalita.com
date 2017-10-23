@@ -18,7 +18,7 @@
           {{-- <li><a href="{{ route('front.posts.index') }}">Notas</a></li> --}}
         </ul>
         <nav class="icons-nav">
-          <a href="#"><i class="icon-instagram"></i> / guatemalita.com</a>
+          <a href="https://www.instagram.com/guatemalita.com_oficial/" target="_blank"><i class="icon-instagram"></i> / guatemalita.com_oficial</a>
           {{-- <a href="#"><i class="icon-youtube"></i> / guatemalita</a> --}}
         </nav>
       </div>
