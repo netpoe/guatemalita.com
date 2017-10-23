@@ -1,4 +1,9 @@
 /node_modules
+/css
+/img
+/js
+/fonts
+/icons
 /public/hot
 /public/storage
 /public/hot
