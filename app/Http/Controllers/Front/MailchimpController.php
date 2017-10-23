@@ -20,10 +20,6 @@ class MailchimpController extends Controller
 
     public function confirmation()
     {
-        $listId = config('mailchimp.guatemalitaListId');
-
-        $result = $mc->get("lists/{$listId}/members", []);
-
         return view('front.mailchimp.confirmation');
     }
 
