@@ -11,18 +11,14 @@
         <div class="col-sm-6 hero-left">
           <h1 class="sm-up-title">Guatemala, con cariño...</h1>
           <h1 class="sm-down-title">Guatemala, <br>con cariño...</h1>
-          <h2>Recibí en tu correo las más recientes actualizaciones de arte, eventos y cultura en Guatemala</h2>
+          <h2>Recibí en tu hogar o en tu negocio, productos frescos directo del campo de las personas que lo producen</h2>
           <div class="subscribe-form-block">
             @include('components.subscribe-form', [
-              'label' => 'Suscribite al newsletter semanal, es gratis',
+              'label' => 'Suscribite a la lista de espera y recibe un regalo especial',
               'autofocus' => true,
               'action' => route('front.mailchimp.subscribe')
               ])
           </div>
-          <nav class="hero-menu">
-            <a href="{{ route('front.events.index') }}">Eventos</a>
-            {{-- <a href="{{ route('front.posts.index') }}">Notas</a> --}}
-          </nav>
         </div>
         <div class="col-sm-6 hero-right"></div>
       </div>

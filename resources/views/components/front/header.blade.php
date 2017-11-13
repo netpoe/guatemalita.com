@@ -8,7 +8,7 @@
       </div>
       <div class="col-sm-6 header-right">
         <nav class="icons-nav">
-          <a href="https://www.instagram.com/guatemalita.com_oficial/" target="_blank"><i class="icon-instagram"></i> / guatemalita.com_oficial</a>
+          <a href="https://www.instagram.com/guatemalitamatiox/" target="_blank"><i class="icon-instagram"></i> / guatemalitamatiox</a>
           {{-- <a href="#"><i class="icon-youtube"></i> / guatemalita</a> --}}
         </nav>
       </div>

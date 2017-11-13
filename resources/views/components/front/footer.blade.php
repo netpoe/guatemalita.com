@@ -13,12 +13,8 @@
         <a href="#" class="logo">
           <img src="/img/front/logo-guatemalita-blue-carino.png" alt="Guatemalita.com">
         </a>
-        <ul class="footer-list">
-          <li><a href="{{ route('front.events.index') }}">Eventos</a></li>
-          {{-- <li><a href="{{ route('front.posts.index') }}">Notas</a></li> --}}
-        </ul>
         <nav class="icons-nav">
-          <a href="https://www.instagram.com/guatemalita.com_oficial/" target="_blank"><i class="icon-instagram"></i> / guatemalita.com_oficial</a>
+          <a href="https://www.instagram.com/guatemalitamatiox" target="_blank"><i class="icon-instagram"></i> / guatemalitamatiox</a>
           {{-- <a href="#"><i class="icon-youtube"></i> / guatemalita</a> --}}
         </nav>
       </div>
